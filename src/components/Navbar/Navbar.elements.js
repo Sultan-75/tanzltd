@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import { Container } from '../../globalStyles';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { Container } from "../../globalStyles";
 
 export const Nav = styled.nav`
   background: #101522;
@@ -31,10 +30,13 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-`;
-
-export const NavIcon = styled(FaMagento)`
-  margin-right: 0.5rem;
+  .logo {
+    height: auto;
+    max-width: 10%;
+  }
+  @media screen and (max-width: 960px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -64,7 +66,7 @@ export const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({ click }) => (click ? 0 : '-100%')};
+    left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;
