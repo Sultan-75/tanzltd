@@ -68,12 +68,12 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
+                <NavLinks to="/contact" onClick={closeMobileMenu}>
                   Contact
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="#">
                   <Button onClick={closeMobileMenu} fontBig primary>
                     Call Now
                   </Button>
