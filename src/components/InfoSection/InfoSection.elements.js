@@ -2,8 +2,11 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 150px 0;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#0a1435")};
+  @media screen and (max-width: 768px) {
+    padding: 55px 0;
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -15,7 +18,7 @@ export const InfoRow = styled.div`
 `;
 
 export const InfoColumn = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
@@ -27,6 +30,7 @@ export const InfoColumn = styled.div`
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
   }
 `;
 
