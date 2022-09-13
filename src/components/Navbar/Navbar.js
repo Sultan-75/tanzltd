@@ -73,11 +73,11 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItemBtn>
-                <NavBtnLink to="#">
-                  <Button onClick={closeMobileMenu} fontBig primary>
+                <Button onClick={closeMobileMenu} fontBig primary>
+                  <a href="tel:+8801799213804" className="btn-text">
                     Call Now
-                  </Button>
-                </NavBtnLink>
+                  </a>
+                </Button>
               </NavItemBtn>
             </NavMenu>
           </NavbarContainer>

@@ -44,6 +44,10 @@ export const Button = styled.button`
   @media screen and (max-width: 960px) {
     width: 100%;
   }
+  .btn-text {
+    text-decoration: none;
+    color: #fff;
+  }
 `;
 
 export default GlobalStyle;

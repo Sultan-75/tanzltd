@@ -5,9 +5,6 @@ import {
   SeviceWrapper,
   SeviceHeading,
   SeviceContainer,
-  SeviceCard,
-  SeviceCardInfo,
-  SeviceCardPlan,
 } from "./Services.elements";
 
 const Services = () => {
@@ -16,66 +13,23 @@ const Services = () => {
       <SeviceWrapper>
         <SeviceHeading>Our Services</SeviceHeading>
         <SeviceContainer>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
+          <div className="card">
+            <div className="image">
               <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
+                src={require("../../images/kitchen-proter.jpg")}
+                alt="logo"
               />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
-              <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
-              />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
-              <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
-              />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
-              <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
-              />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
-              <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
-              />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
-          <SeviceCard to="/sign-up">
-            <SeviceCardInfo>
-              <img
-                src={require("../../images/waiter.jpg")}
-                alt="card-img"
-                className="card-img"
-              />
-              <SeviceCardPlan>Waiter Service</SeviceCardPlan>
-            </SeviceCardInfo>
-          </SeviceCard>
+            </div>
+            <div className="content">
+              <h3>This is content</h3>
+              <p>
+                DIn publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content.
+              </p>
+              <a href="">Contact</a>
+            </div>
+          </div>
         </SeviceContainer>
       </SeviceWrapper>
     </SeviceSection>

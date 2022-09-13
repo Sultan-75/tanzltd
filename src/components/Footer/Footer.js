@@ -48,7 +48,7 @@ function Footer() {
             <FooterLink to="/">Instagram</FooterLink>
             <FooterLink to="/">Facebook</FooterLink>
             <FooterLink to="/">Twitter</FooterLink>
-            <FooterLink to="/">WhatsApp</FooterLink>
+            <FooterLink to="">WhatsApp</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Other Links</FooterLinkTitle>
@@ -73,10 +73,14 @@ function Footer() {
             <SocialIconLink href="/" target="_blank" aria-label="Instagram">
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+            <SocialIconLink href="" target="_blank" aria-label="Twitter">
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+            <SocialIconLink
+              href="whatsapp://send?text=Hello World!&phone=8801799213804"
+              target="_blank"
+              aria-label="WhatsApp"
+            >
               <FaWhatsapp />
             </SocialIconLink>
           </SocialIcons>

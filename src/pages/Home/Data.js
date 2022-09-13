@@ -5,7 +5,7 @@ export const homeData = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Recruiting Agency",
-  headline: "Lead Generation Specialist for Online Businesses",
+  headline: "Looking For Staff ?",
   description:
     "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
   buttonLabel: "Get Started",
