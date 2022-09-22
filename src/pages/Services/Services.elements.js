@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const SeviceSection = styled.div`
-  padding: 50px 0;
+  padding: 40px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ export const SeviceWrapper = styled.div`
 export const SeviceHeading = styled.h1`
   color: #0a1435;
   font-size: 48px;
-  margin-bottom: 28px;
+  margin-bottom: 50px;
 `;
 
 export const SeviceContainer = styled.div`
@@ -56,7 +56,7 @@ export const SeviceContainer = styled.div`
     border-radius: 15px;
   }
   .card:hover {
-    height: 320px;
+    height: 300px;
   }
 
   .card .image {
@@ -83,6 +83,16 @@ export const SeviceContainer = styled.div`
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
+    h3 {
+      margin: 5px 0;
+    }
+    p {
+      margin: 5px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 
   .card:hover .content {

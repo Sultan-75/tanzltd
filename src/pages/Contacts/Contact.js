@@ -45,7 +45,7 @@ const Services = () => {
           <FormSide>
             <FormGroup>
               <form action="">
-                <label htmlFor="name">Your Name</label>
+                <label htmlFor="name">Name</label>
                 <input
                   type="text"
                   id="fname"
@@ -66,19 +66,11 @@ const Services = () => {
                   name="lastname"
                   placeholder="Your Email.."
                 />
-                <label htmlFor="country">What are You looking For</label>
-                <select id="service" name="service">
-                  <option>please choose</option>
-                  <option value="Waiter">Waiter</option>
-                  <option value="Chef">Chef</option>
-                  <option value="Runner">Runner</option>
-                </select>
-
-                <label htmlFor="subject">Your Message</label>
+                <label htmlFor="subject">Message</label>
                 <textarea
                   id="subject"
                   name="subject"
-                  placeholder="Write something.."
+                  placeholder="What kinds of service you want.."
                   style={{ height: "100px" }}
                 ></textarea>
 
