@@ -6,6 +6,8 @@ export const SeviceSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* background-color: #ccf381; */
+  background-color: #e2d1f9;
 `;
 
 export const SeviceWrapper = styled.div`
@@ -24,7 +26,7 @@ export const SeviceWrapper = styled.div`
 
 export const SeviceHeading = styled.h1`
   color: #0a1435;
-  font-size: 48px;
+  font-size: 38px;
   margin-bottom: 50px;
 `;
 
@@ -45,18 +47,21 @@ export const SeviceContainer = styled.div`
   .card {
     position: relative;
     max-width: 300px;
-    height: 215px;
+    height: 180px;
     background-color: #fff;
-    margin: 30px 10px;
+    margin: 30px 10px 60px 10px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
     border-radius: 15px;
+    @media screen and (max-width: 960px) {
+      margin-top: 45px;
+    }
   }
   .card:hover {
-    height: 300px;
+    height: 320px;
   }
 
   .card .image {
@@ -67,6 +72,10 @@ export const SeviceContainer = styled.div`
     left: 5px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 10px;
+    h3 {
+      text-align: center;
+    }
   }
 
   .card .image img {
@@ -83,11 +92,9 @@ export const SeviceContainer = styled.div`
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
-    h3 {
-      margin: 5px 0;
-    }
     p {
       margin: 5px 0;
+      text-align: start;
     }
     a {
       text-decoration: none;

@@ -29,10 +29,16 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Information</FooterLinkTitle>
-            <FooterLink to="/">Tanzeel Group LTD</FooterLink>
-            <FooterLink to="/">A108 Adam Street</FooterLink>
-            <FooterLink to="/">0128454544545</FooterLink>
-            <FooterLink to="/">hshf@gmail.com</FooterLink>
+            <FooterLink to="/">
+              28 Osborn Street <br />
+              London E1 6TD
+              <br /> UK
+            </FooterLink>
+            <FooterLink to="/">07564033214</FooterLink>
+            <FooterLink to="/">
+              info@tanjeelgroup.com <br />
+              tanzeelgroup@yahoo.com
+            </FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
