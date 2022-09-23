@@ -61,12 +61,13 @@ export const InfoIcon = styled.div`
     color: #fff;
   }
 `;
-export const InfoHeading = styled.h4`
+export const InfoHeading = styled.h5`
   padding: 0 0 0 10px;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
   display: flex;
+  color: #041c32;
 `;
 export const InfoPara = styled.p`
   padding: 0 0 10px 60px;
@@ -99,7 +100,7 @@ export const FormSide = styled.div`
   }
 
   input[type="submit"] {
-    background-color: #04aa6d;
+    background-color: #009cea;
     color: white;
     padding: 12px 20px;
     border: none;

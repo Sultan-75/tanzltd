@@ -23,7 +23,7 @@ const Services = () => {
             <InfoIcon>
               <FaLocationArrow />
             </InfoIcon>
-            <InfoHeading>Address</InfoHeading>
+            <InfoHeading>Location</InfoHeading>
             <InfoPara>
               28 Osborn Street <br />
               London E1 6TD
@@ -43,7 +43,7 @@ const Services = () => {
               tanzeelgroup@yahoo.com
             </InfoPara>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.789907844584!2d-0.07219008422968812!3d51.51707027963674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cca84c0a3ef%3A0x46801ec606f3cb90!2s28%20Osborn%20St%2C%20London%20E1%206TD%2C%20UK!5e0!3m2!1sen!2sbd!4v1663941190515!5m2!1sen!2sbd"
               frameBorder="0"
               style={{ border: "0", width: "100%", height: "290px" }}
               allowFullScreen
@@ -73,7 +73,7 @@ const Services = () => {
                   name="email"
                   placeholder="Your Email.."
                 />
-                <label htmlFor="Message"></label>
+                <label htmlFor="Message">Message</label>
                 <textarea
                   id="Message"
                   name="Message"
@@ -91,3 +91,12 @@ const Services = () => {
   );
 };
 export default Services;
+
+<iframe
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "../../globalStyles";
 import {
   SeviceSection,
@@ -31,7 +32,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -50,7 +51,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -69,7 +70,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -88,7 +89,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -107,7 +108,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -126,7 +127,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="#">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>
@@ -145,7 +146,7 @@ const Services = () => {
                 £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
               </p>
               <Button>
-                <a href="/contact">Contact US</a>
+                <Link to="/contact">contact us</Link>
               </Button>
             </div>
           </div>

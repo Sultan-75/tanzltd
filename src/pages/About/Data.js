@@ -9,7 +9,7 @@ export const AboutData = {
   headline_2: "Company No 09761578",
   headline_3: "Registered in England",
   description: `We help business owners increase their revenue.We provide best temporary workers for your business`,
-  buttonLabel: "contact with us",
+  buttonLabel: "contact us",
   imgStart: "start",
   img: require("../../images/about.jpg"),
   alt: "Vault",

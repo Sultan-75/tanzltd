@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: #041c32;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
   .logo {
     height: auto;
-    max-width: 10%;
+    max-width: 11%;
   }
   @media screen and (max-width: 960px) {
     font-size: 1.5rem;
@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #041c32;
   }
 `;
 

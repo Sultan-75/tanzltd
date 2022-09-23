@@ -20,6 +20,7 @@ import {
   SocialIcons,
   SocialIconLink,
   DeveloperRights,
+  FooterLinkHrf,
 } from "./Footer.elements";
 
 function Footer() {
@@ -45,21 +46,27 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>Useful Links</FooterLinkTitle>
             <FooterLink to="/">Home</FooterLink>
-            <FooterLink to="/">About</FooterLink>
-            <FooterLink to="/">Service</FooterLink>
-            <FooterLink to="/">Contact</FooterLink>
+            <FooterLink to="/about">About</FooterLink>
+            <FooterLink to="/services">Service</FooterLink>
+            <FooterLink to="/contact">Contact</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/">Instagram</FooterLink>
-            <FooterLink to="/">Facebook</FooterLink>
-            <FooterLink to="/">Twitter</FooterLink>
-            <FooterLink to="">WhatsApp</FooterLink>
+            <FooterLinkHrf href="/">Instagram</FooterLinkHrf>
+            <FooterLinkHrf href="https://www.facebook.com/sultanahmed.rana.7">
+              Facebook
+            </FooterLinkHrf>
+            <FooterLinkHrf href="https://twitter.com/home">
+              Twitter
+            </FooterLinkHrf>
+            <FooterLinkHrf href="https://wa.me/007564033214">
+              WhatsApp
+            </FooterLinkHrf>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Other Links</FooterLinkTitle>
-            <FooterLink to="/">Privacy policy</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLinkHrf href="/">Privacy policy</FooterLinkHrf>
+            <FooterLinkHrf href="/">Terms of Service</FooterLinkHrf>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>About us</FooterLinkTitle>
@@ -73,17 +80,25 @@ function Footer() {
           <SocialLogo to="/">TANZEEL GROUP</SocialLogo>
           <WebsiteRights>© Copyright 2020. All rights reserved.</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLink
+              href="https://www.facebook.com/sultanahmed.rana.7"
+              target="_blank"
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
             <SocialIconLink href="/" target="_blank" aria-label="Instagram">
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href="" target="_blank" aria-label="Twitter">
+            <SocialIconLink
+              href="https://twitter.com/home"
+              target="_blank"
+              aria-label="Twitter"
+            >
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink
-              href="whatsapp://send?text=Hello World!&phone=8801799213804"
+              href="https://wa.me/007564033214"
               target="_blank"
               aria-label="WhatsApp"
             >

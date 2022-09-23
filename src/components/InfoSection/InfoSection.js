@@ -39,11 +39,13 @@ function InfoSection({
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <h4 style={{ color: "red" }}>{headline_2}</h4>
-                <h4 style={{ color: "red" }}>{headline_3}</h4>
+                <h4 style={{ color: "#1c2237" }}>
+                  {headline_2}, {headline_3}
+                </h4>
+
                 <br />
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/sign-up">
+                <Link to="/contact">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

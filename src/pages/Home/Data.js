@@ -8,9 +8,9 @@ export const homeData = {
   headline: "Looking For Staff ?",
   description:
     "We offers the ideal solution for your flexible workforce management and the best temporary workers for your business",
-  buttonLabel: "connect with us",
+  buttonLabel: "contact us",
   imgStart: "",
-  img: require("../../images/banner.png"),
+  img: require("../../images/bnr.png"),
   alt: "Banner-img",
   start: "",
 };

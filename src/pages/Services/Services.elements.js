@@ -7,7 +7,7 @@ export const SeviceSection = styled.div`
   flex-direction: column;
   justify-content: center;
   /* background-color: #ccf381; */
-  background-color: #e2d1f9;
+  background-color: #eef1ff;
 `;
 
 export const SeviceWrapper = styled.div`

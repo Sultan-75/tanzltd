@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 150px 0;
-  background: ${({ lightBg }) => (lightBg ? "#fff" : "#317773")};
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#041C32")};
   @media screen and (max-width: 768px) {
     padding: 55px 0;
   }
@@ -51,7 +51,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#fff" : "#645CAA")};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
