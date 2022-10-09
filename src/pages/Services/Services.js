@@ -28,8 +28,8 @@ const Services = () => {
                 HA, KT, TN, TW, and UB postcodes)
               </p>
               <p>
-                Standard Rate: £13.05/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -48,7 +48,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £15.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £17.50/hour 24 Hours Notice: £18/hour On The Day: £18/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -67,7 +67,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -86,7 +86,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -105,7 +105,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -124,7 +124,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>
@@ -143,7 +143,7 @@ const Services = () => {
               </p>
               <p>
                 Standard Rate: £13.50/hour (London Living Wage) 48 Hours Notice:
-                £12/hour 24 Hours Notice: £13/hour On The Day: £15/hour
+                £14.50/hour 24 Hours Notice: £15/hour On The Day: £16/hour
               </p>
               <Button>
                 <Link to="/contact">contact us</Link>

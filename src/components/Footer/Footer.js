@@ -59,7 +59,7 @@ function Footer() {
             <FooterLinkHrf href="https://twitter.com/home">
               Twitter
             </FooterLinkHrf>
-            <FooterLinkHrf href="https://wa.me/007564033214">
+            <FooterLinkHrf href="https://wa.me/447564033214">
               WhatsApp
             </FooterLinkHrf>
           </FooterLinkItems>
@@ -98,7 +98,7 @@ function Footer() {
               <FaTwitter />
             </SocialIconLink>
             <SocialIconLink
-              href="https://wa.me/007564033214"
+              href=" https://wa.me/447564033214"
               target="_blank"
               aria-label="WhatsApp"
             >
